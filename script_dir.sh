@@ -1,0 +1,11 @@
+mkdir -p TP1/arquitectura/Clase1
+mkdir -p TP1/arquitectura/Clase2
+mkdir -p TP1/arquitectura/Clase3
+mkdir -p TP1/arquitectura/Clase4
+mkdir -p TP1/arquitectura/Clase5
+mkdir -p TP1/so/Clase1
+mkdir -p TP1/so/Clase2
+mkdir -p TP1/so/Clase3
+mkdir -p TP1/so/Clase4
+mkdir -p TP1/so/Clase5
+mkdir -p TP1/so/Clase6
