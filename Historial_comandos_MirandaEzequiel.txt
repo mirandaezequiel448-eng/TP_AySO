@@ -93,3 +93,16 @@ git add Historial_comandos_MirandaEzequiel.txt
 ls
 rm cp
 history -a
+cp ~/.bash_history Historial_comandos_MirandaEzequiel.txt
+ls
+git add Historial_comandos_MirandaEzequiel.txt
+git commit -m "Añadiendo historial de comandos"
+git push
+cat << 'EOF' >> README.md
+## Datos del alumno
+Alumno : Ezequiel Miranda
+Division : 116
+Turno : Turno Mañana
+EOF
+
+history -a 
