@@ -1,0 +1,95 @@
+uname -a
+ls
+exit
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+cd .ssh
+ls -la
+cat id_rsa.pub
+ssh-rsa
+sud apt install git
+sudo apt install git
+git --version
+git config --global user.name "Ezequiel"
+git config --global user.email "mirandaezequiel448@gmail.com
+git clone git@github.com:mirandaezequiel448-eng/miercoles4.git
+
+cd
+
+
+
+git clone git@github.com:mirandaezaquiel448-eng/miercoles4.git
+git clone git@github.com:mirandaezequiel448-eng/miercoles4.git
+cd miercoles4
+echo "Prueba de Git UTN" > README.md
+git add README.md
+git commit -m "Mi primer archivo"
+git config --global user.name Ezequiel
+git config --global user.email mirandaezequiel448@gmail.com
+git push origin main
+git config --global user.name "Ezequiel"
+git config --global user.email "mirandaezequiel448@gmail.com"
+mkdir ~/repogit
+cd ~/repogit
+git clone git@github.com:mirandaezequiel448-eng/TP_AySO.git
+cd TP_AySO
+grep -i ubunt /etc/passwd > datos_usuario.txt 
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m " agregado primer ejercicio sobre datos_usuarios.txt"
+git push
+grep model name /proc/cpuinfo | head -n1 > info_pc.txt
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+git add info_pc.txt
+git commit -m " Informacion de CPU "
+git push
+grep -v "nologin /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+
+
+
+
+
+grep -v "nologin" /etc/passwd | head -n10 |sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+sudo apt install tree
+sudo apt update
+cat << 'EOF' > script.dir.sh
+mkdir -p TP1/arquitectura/Clase1
+mkdir -p TP1/arquitectura/Clase2
+mkdir -p TP1/arquitectura/Clase3
+mkdir -p TP1/arquitectura/Clase4
+mkdir -p TP1/arquitectura/Clase5
+mkdir -p TP1/so/Clase1
+mkdir -p TP1/so/Clase2
+mkdir -p TP1/so/Clase3
+mkdir -p TP1/so/Clase4
+mkdir -p TP1/so/Clase5
+mkdir -p TP1/so/Clase6
+EOF
+
+chmod +x script_dir.sh
+mv script.dir.sh script_dir.sh
+chmod +x script_dir.sh
+tree TP1
+apt install tree
+Command 'tree' not found, but can be installed with:
+apt install tree
+Please ask your administrator.
+vagrant@VMPruebas:~/repogit/TP_AySO$ apt install tree
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+sudo apt install -y tree
+tree TP1
+sudo tree TP1
+sudo chmod -R 777 TP1
+./script_dir.sh
+tree TP1
+git add script_dir.sh
+git commit -m "ADD: Añadiendo Script"
+git push
+history -a
+git add Historial_comandos_MirandaEzequiel.txt
+ls
+rm cp
+history -a
